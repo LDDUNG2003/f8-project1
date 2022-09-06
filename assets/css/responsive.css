@@ -1,0 +1,119 @@
+     /* responsive pc */
+     
+     @media (min-width:64em) {}
+     /* responsive taple */
+     
+     @media(max-width:63.9375em) {
+         .place-buy-tickets {
+             padding: 12px 24px;
+         }
+         #footer {
+             font-size: 35px;
+         }
+         .footer-link {
+             font-size: 27px;
+             padding: 11px;
+             display: inline-block;
+         }
+         .w3-link {
+             padding: 10px 0px;
+             display: inline-block;
+         }
+     }
+     /* responsive taple */
+     
+     @media(min-width:46.25em) and (max-width:63.9375em) {
+         .modal-container {
+             max-width: 640px;
+         }
+     }  
+     /* responsive mobile */
+     
+     @media (max-width:46.1875em) {
+         .s-mt-8 {
+             margin-top: 8px;
+         }
+         .s-mt-18 {
+             margin-top: 18px;
+         }
+         .mt-32 {
+             margin-top: 32px;
+         }
+         .s-btn-full {
+             width: 100% !important;
+         }
+         .s-col-full {
+            width: 100% !important;
+         }
+         #header {
+            overflow: hidden;
+         }
+         #nav {
+            display: block;
+            width: 100%;
+         }
+         #nav>li {
+            display: block;
+         }
+         #nav>li:first-child {
+            display: inline-block;
+         }
+         #nav>li>a {
+            color: white;
+            text-decoration: none;
+            line-height: 52px;
+            padding: 0 15px;
+            display: block;
+         }
+         #nav .subnav {
+             position: initial;
+             font-size: 17px;
+             padding-left: 24px;
+             font-size: 18px;
+             background-color: #ccc;
+         }
+         #nav .subnav a {
+             display: block;
+             position: initial;
+             padding: 0;
+         }
+         .search {
+             display: none;
+         }
+         .menu-mb {
+             display: block;
+         }
+         #slider #text-conten {
+             display: none;
+         }
+         .col-three {
+             width: 100%;
+         }
+         #content .members-img {
+             width: 60%;
+         }
+        .contact__input  {
+            display: block;
+         }
+        .contact__input-item{
+            margin-left: 0px !important;
+        }
+        .send-mb{
+            margin: 0px;
+            margin-top: 10px !important ;
+        }
+         #footer {
+             font-size: 17px;
+             padding: 40px 20px;
+         }
+         .footer-link {
+             font-size: 28px;
+             padding: 6px;
+         }
+         .modal-container {
+             max-width: 560px;
+             max-height: 410px;
+             margin-left: 16px;
+             margin-right: 16px;
+         }
+     }
